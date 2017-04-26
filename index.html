@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <section class="login">
+            <div class="login-container">
+                <form class="login-form">
+                    <h1>LOGIN PANEL</h1>
+                    <img src="img/help.png" class="help">
+                    <label for="user">USERNAME</label>
+                    <input type="text" id="user" placeholder="Enter your username" required/>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" placeholder="Enter your password" required/>
+                    <input type="checkbox" id="keep-logged" checked>
+                    <label for="keep-logged" class="inline-label">Keep me logged on this computer</label>
+                    <p>Don't have an account? <a href="/signup" class="form-link">Sign up here.</a><br>
+                    <a href="/pass-recovery" class="form-link">Lost your password?</a></p>
+                    <button type="submit">SIGN IN</button>
+                </form>
+                <div class="sign-in facebook"><img src="img/fb.png"><a href="#">SIGN IN WITH FACEBOOK</a></div>
+                <div class="sign-in google"><img src="img/google.png"><a href="#">SIGN IN WITH GOOGLE</a></div>
+        </div>
+    </section>
+</body>
+</html>
